@@ -29,7 +29,6 @@ class _TitleRecipeState extends State<TitleRecipe> {
               child: Text(
                 'Vote for',
                 textAlign: TextAlign.center,
-                // overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontFamily: 'OpenSans-regular', fontSize: 16),
               ),
             ),
@@ -39,7 +38,6 @@ class _TitleRecipeState extends State<TitleRecipe> {
               child: Text(
                 'Chicken Delicious',
                 textAlign: TextAlign.center,
-                // overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontFamily: 'Merriweather-bold', fontSize: 24),
               ),
             )

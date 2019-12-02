@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:recipe_swipe/pages/alert_page.dart';
 import 'package:recipe_swipe/routes/routes.dart';
 
 void main() => runApp(MyApp());
@@ -17,11 +16,6 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: getApplicationRoutes(),
-      // onGenerateRoute: (RouteSettings settings) {
-      //   print('Ruta llamada');
-      //   return MaterialPageRoute(
-      //       builder: (BuildContext context) => AlertPage());
-      // },
     );
   }
 }

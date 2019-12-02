@@ -8,6 +8,7 @@ class RecipeDetail extends StatelessWidget {
     final buttonUp = 'assets/arrow_up.png';
     final buttonDown = 'assets/arrow_down.png';
     final _buttonBack = 'assets/back.png';
+    final finishButton = 'assets/finish.png';
 
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
@@ -225,6 +226,11 @@ class RecipeDetail extends StatelessWidget {
                                             fontFamily: 'OpenSans-regular',
                                             fontSize: 16),
                                       ),
+                                      Center(
+                                        child: Container(
+                                          child: buttonTest(finishButton, context),
+                                        ),
+                                      )
                                     ],
                                   ),
                                 ],
@@ -292,4 +298,25 @@ class RecipeDetail extends StatelessWidget {
       ),
     );
   }
+
+  
+Widget buttonTest(String url, context){
+  return Container(
+      height: 70.0,
+      width: 125.0,
+      child: InkWell(
+        onTap: () {
+          Navigator.pushNamed(context, 'commentsRecipe');
+        }, // handle your onTap here
+        child: Container(height: 200, width: 200),
+      ),
+      decoration: new BoxDecoration(
+        image: DecorationImage(
+          image: new AssetImage(url),
+          fit: BoxFit.fill,
+        ),
+      ),
+    );
 }
+}
+
