@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1052767549302",
+    "firebase_url": "https://recipeswipe-dbb46.firebaseio.com",
+    "project_id": "recipeswipe-dbb46",
+    "storage_bucket": "recipeswipe-dbb46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052767549302:android:2e6d9f88e22a56438a6c57",
+        "android_client_info": {
+          "package_name": "com.example.recipe_swipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052767549302-39vhvb0hvqccbnbi2mfgkushiu1704v8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqUoh89LbxQekguB8b8Jz6iv5ywu9SVuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052767549302-39vhvb0hvqccbnbi2mfgkushiu1704v8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
